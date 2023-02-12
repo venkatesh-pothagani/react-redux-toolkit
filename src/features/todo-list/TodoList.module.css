@@ -1,0 +1,27 @@
+.card {
+    display: grid;
+    border: 2px solid rgb(30, 224, 30);
+    border-radius: 8px;
+    background-color: bisque;
+    box-shadow: 0px 0px 4px 4px rgba(30, 224, 30, 0.3);
+    padding: 16px;
+}
+
+.card div {
+    padding: 8px;
+}
+
+.todo {
+    cursor: pointer;
+    display: grid;
+    border: 2px solid rgb(137, 30, 224);
+    border-radius: 8px;
+    background-color: rgba(89, 89, 214, 0.411);
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: black;
+}
+
+.todo:hover {
+    box-shadow: 0px 0px 4px 4px rgba(137, 30, 224, 0.3);
+}
